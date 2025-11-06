@@ -14,3 +14,7 @@ Built using table-based layouts, inline CSS, VML buttons, and accessibility best
 
 ## Live Preview
 Demo the template here: https://email-boilerplate.netlify.app/
+
+Original template:
+<img width="1437" height="785" alt="image" src="https://github.com/user-attachments/assets/b8e7ef30-a94d-4820-ad9e-f072e68923bd" />
+
