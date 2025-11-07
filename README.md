@@ -1,8 +1,7 @@
 # Responsive Email Campaign Boilerplate
-A responsive, modular email template built for marketing campaign systems.
+A responsive, modular email boilerplate skeleton built for marketing campaign systems.
 
-This project demonstrates a fully responsive, Outlook-safe HTML email coded from scratch. <br>
-Built using table-based layouts, inline CSS, VML buttons, and accessibility best practices.
+This project demonstrates a fully responsive, Outlook-safe HTML email coded from scratch. It was built using table-based layouts, inline CSS, VML buttons, and accessibility best practices. It is also meant as a foundation for future branded campaigns; no active build pipeline or theme has been incorporated.
 
 ## Features
 - 600px modular container
