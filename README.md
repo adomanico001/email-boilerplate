@@ -1,4 +1,4 @@
-# Responsive Email Boilerplate
+# Responsive Email Campaign Boilerplate
 A responsive, modular email template built for marketing campaign systems.
 
 This project demonstrates a fully responsive, Outlook-safe HTML email coded from scratch. <br>
