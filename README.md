@@ -5,6 +5,7 @@ This project demonstrates a fully responsive, Outlook-safe HTML email coded from
 
 ## Features
 - 600px modular container
+- One-column layout
 - Dark mode support
 - Bulletproof buttons for Outlook
 - Mobile-first responsive design
