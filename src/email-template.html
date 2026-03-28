@@ -75,6 +75,17 @@
             background: #f8fafc !important;
         }
 
+        .two-col {
+            width: 100% !important;
+        }
+
+        .two-col .column {
+            display: inline-block;
+            vertical-align: top;
+            width: 100%;
+            max-width: 268px;
+        }
+
         @media (prefers-color-scheme: dark) {
             .bg {
                 background: #111111 !important;
@@ -122,6 +133,20 @@
                 display: block !important;
                 width: 100% !important;
                 box-sizing: border-box !important;
+            }
+
+            .two-col .column {
+                max-width: 100% !important;
+                display: block !important;
+            }
+
+            .two-col .column img {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            .mobile-center {
+                text-align: center !important;
             }
         }
     </style>
@@ -298,6 +323,98 @@
                                                 </td>
                                             </tr>
                                         </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Two-column module -->
+                    <tr>
+                        <td class="mobile-pad card-bg" style="padding:0 32px 28px 32px; background-color: #ffffff;">
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                                class="two-col">
+                                <tr>
+                                    <td align="center" style="font-size:0;">
+
+                                        <!-- Column 1 -->
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0"
+                                            class="column"
+                                            style="width:100%; max-width:268px; display:inline-block; vertical-align:top;">
+                                            <tr>
+                                                <td style="padding: 0 8px 16px 0;">
+                                                    <table role="presentation" width="100%" cellpadding="0"
+                                                        cellspacing="0" border="0" class="feature-box"
+                                                        style="background:#f8fafc; border-radius:8px;">
+                                                        <tr>
+                                                            <td>
+                                                                <img src="https://via.placeholder.com/536x300"
+                                                                    width="260" alt="First feature image"
+                                                                    style="display:block; width:100%; height:auto; border-radius:8px 0 0;">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td
+                                                                style="padding:0 16px 12px 16px; font-family:Arial, sans-serif; font-size:14px; line-height:22px; color:#415166;">
+                                                                Use this space for a short supporting message tied to
+                                                                the content block.
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="padding: 0 16px 16px 16px;">
+                                                                <a href="https://example.com/feature-one?utm_source=email&utm_medium=campaign&utm_campaign=launchkit&utm_content=column_1_cta"
+                                                                    style="font-family:Arial, sans-serif; font-size:14px; line-height:20px; font-weight:bold; color: #2563eb; text-decoration:underline;">
+                                                                    Learn more
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <!-- Column 2 -->
+                                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+                                            class="column"
+                                            style="width:100%; max-width:268px; display:inline-block; vertical-align:top;">
+                                            <tr>
+                                                <td style="padding: 0 0 16px 8px;">
+                                                    <table role="presentation" width="100%" cellpadding="0"
+                                                        cellspacing="0" border="0" class="feature-box"
+                                                        style="background:#f8fafc; border-radius:8px;">
+                                                        <tr>
+                                                            <td>
+                                                                <img src="https://via.placeholder.com/536x300"
+                                                                    width="260" alt="Second feature image"
+                                                                    style="display:block; width:100%; height:auto; border-radius:8px 8px 0 0;">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td
+                                                                style="padding:16px 16px 8px 16px; font-family:Arial, sans-serif; font-size:16px; line-height:22px; font-weight:bold; color:#1f2a37;">
+                                                                Second column title
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td
+                                                                style="padding: 0 16px 12px 16px; font-family:Arial, sans-serif; font-size:14px; line-height:22px; color:#415166;">
+                                                                Use this space for another short content block, offer,
+                                                                or supporting detail.
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="padding:0 16px 16px 16px;">
+                                                                <a href="https://example.com/feature-two?utm_source=email&utm_medium=campaign&utm_campaign=launchkit&utm_content=column_2_cta"
+                                                                    style="font-family:Arial, sans-serif; font-size:14px; line-height:20px; font-weight:bold; color:#2563eb; text-decoration:underline;">
+                                                                    Learn more
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+
                                     </td>
                                 </tr>
                             </table>
