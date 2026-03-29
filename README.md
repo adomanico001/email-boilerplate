@@ -36,9 +36,6 @@ email-boilerplate/
 Demo the template here: https://email-boilerplate.netlify.app/
 
 ## Screenshots
-### Desktop preview
-<img width="1437" height="785" alt="Desktop preview of the responsive email boilerplate" src="https://github.com/user-attachments/assets/b8e7ef30-a94d-4820-ad9e-f072e68923bd" />
-
 ### Mobile dark mode preview
 <img width="207" height="448" alt="Mobile dark mode preview i" src="https://github.com/user-attachments/assets/315f8da0-97b7-460b-b499-78a5ca5e5b12" />
 <img width="207" height="448" alt="Modbile dark mode preview 2" src="https://github.com/user-attachments/assets/59221944-b4b6-49a5-b90a-a261c9452d81" />
