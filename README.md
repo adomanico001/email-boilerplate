@@ -5,7 +5,7 @@ This project demonstrates a modular, table-based email template coded from scrat
 
 The template is organized for a practical email workflow:
 - `src/email-template.html` contains the editable source version
-- `dist/email-inline.html` contains the generated inlined version for testing or send preparation
+- `dist/index.html` contains the generated inlined version for testing or send preparation
 
 ## Features
 - 600px responsive email container
