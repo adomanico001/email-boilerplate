@@ -30,6 +30,7 @@ email-boilerplate/
     dist/
         email-inline.html
     README.md
+```
 
 ## Live Preview
 Demo the template here: https://email-boilerplate.netlify.app/
