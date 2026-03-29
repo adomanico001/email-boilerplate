@@ -148,6 +148,12 @@
             .mobile-center {
                 text-align: center !important;
             }
+
+            .column-pad-left,
+            .column-pad-right {
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
         }
     </style>
 </head>
@@ -195,8 +201,8 @@
                             style="padding:20px 24px; background-color:#ffffff;">
                             <a href="https://example.com?utm_source=email&utm_medium=campaign&utm_campaign=launchkit&utm_content=logo"
                                 aria-label="Launchkit homepage" style="display:inline-block;">
-                                <img src="https://via.placeholder.com/120x36?text=Launchkit" width="120" height="36"
-                                    alt="Launchkit" style="display:block;">
+                                <img src="assets/logo.svg" width="120" height="36" alt="Launchkit"
+                                    style="display:block;">
                             </a>
                         </td>
                     </tr>
@@ -331,7 +337,7 @@
 
                     <!-- Two-column module -->
                     <tr>
-                        <td class="mobile-pad card-bg" style="padding:0 32px 28px 32px; background-color: #ffffff;">
+                        <td class="mobile-pad card-bg" style="padding:28px 32px 28px 32px; background-color: #ffffff;">
                             <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
                                 class="two-col">
                                 <tr>
@@ -342,7 +348,7 @@
                                             class="column"
                                             style="width:100%; max-width:268px; display:inline-block; vertical-align:top;">
                                             <tr>
-                                                <td style="padding: 0 8px 16px 0;">
+                                                <td class="column-pad-left" style="padding:0 8px 16px 0;">
                                                     <table role="presentation" width="100%" cellpadding="0"
                                                         cellspacing="0" border="0" class="feature-box"
                                                         style="background:#f8fafc; border-radius:8px;">
@@ -350,11 +356,17 @@
                                                             <td>
                                                                 <img src="assets/536x300.svg" width="260"
                                                                     alt="First feature image"
-                                                                    style="display:block; width:100%; height:auto; border-radius:8px 0 0;">
+                                                                    style="display:block; width:100%; height:auto; border-radius:8px 8px 0 0;">
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td
+                                                            <td class="text-dark"
+                                                                style="padding:16px 16px 8px 16px; font-family:Arial, sans-serif; font-size:16px; line-height:22px; font-weight:bold; color:#1f2a37;">
+                                                                First column title
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-body"
                                                                 style="padding:0 16px 12px 16px; font-family:Arial, sans-serif; font-size:14px; line-height:22px; color:#415166;">
                                                                 Use this space for a short supporting message tied to
                                                                 the content block.
@@ -374,11 +386,11 @@
                                         </table>
 
                                         <!-- Column 2 -->
-                                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0"
                                             class="column"
                                             style="width:100%; max-width:268px; display:inline-block; vertical-align:top;">
                                             <tr>
-                                                <td style="padding: 0 0 16px 8px;">
+                                                <td class="column-pad-right" style="padding:0 0 16px 8px;">
                                                     <table role="presentation" width="100%" cellpadding="0"
                                                         cellspacing="0" border="0" class="feature-box"
                                                         style="background:#f8fafc; border-radius:8px;">
@@ -390,13 +402,13 @@
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td
+                                                            <td class="text-dark"
                                                                 style="padding:16px 16px 8px 16px; font-family:Arial, sans-serif; font-size:16px; line-height:22px; font-weight:bold; color:#1f2a37;">
                                                                 Second column title
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td
+                                                            <td class="text-body"
                                                                 style="padding: 0 16px 12px 16px; font-family:Arial, sans-serif; font-size:14px; line-height:22px; color:#415166;">
                                                                 Use this space for another short content block, offer,
                                                                 or supporting detail.
