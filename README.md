@@ -28,7 +28,7 @@ email-boilerplate/
         email-template.html
         assets/
     dist/
-        email-inline.html
+        index.html
     README.md
 ```
 
