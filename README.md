@@ -41,11 +41,3 @@ email-boilerplate/
 
 ## Live Preview
 Demo the template here: https://email-boilerplate.netlify.app/
-
-## Screenshots
-### Mobile dark mode preview
-<img width="207" height="448" alt="Mobile dark mode preview i" src="https://github.com/user-attachments/assets/315f8da0-97b7-460b-b499-78a5ca5e5b12" />
-<img width="207" height="448" alt="Modbile dark mode preview 2" src="https://github.com/user-attachments/assets/59221944-b4b6-49a5-b90a-a261c9452d81" />
-
-
-
