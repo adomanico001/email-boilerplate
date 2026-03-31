@@ -27,8 +27,15 @@ email-boilerplate/
     src/
         email-template.html
         assets/
+            logo.svg
+            1200x600.svg
+            536x300.svg
     dist/
         index.html
+        asssets/
+            logo.svg
+            1200x600.svg
+            536x300.svg
     README.md
 ```
 
